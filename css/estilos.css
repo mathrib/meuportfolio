@@ -92,7 +92,7 @@ a:hover{
 }
 
 
- 
+.centro,
 .site-subtitle,
 .site-title{
     color: whitesmoke;
@@ -107,7 +107,7 @@ a:hover{
 .site-subtitle{
     font-style: italic;
     font-family: 'kalam', cursive;
-    line-height: 1.4em;
+    line-height: 4em;
 }
  
 .sobre,
