@@ -76,12 +76,13 @@ a {
 a:hover{
     text-decoration: underline;
 }
- 
+
+
 .hacker{
     transform: scale(0.2) translateY(50vh);
     opacity: 0;
-    transition: all 2s;
-    animation: linear 2s titulos forwards;
+    transition: all 1s;
+    animation: linear 1s titulos forwards;
 }
 
 @keyframes titulos{
