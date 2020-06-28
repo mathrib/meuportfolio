@@ -123,6 +123,12 @@ a:hover{
     min-height: 1vh;
 }
 
+.email{
+    padding: 4em;
+    min-height: 1vh;
+    
+}
+
 @media(min-width: 1200px){
     .container{
         margin-left: auto;
@@ -135,6 +141,7 @@ a:hover{
 
 .sobre h2,
 .contato h2,
+.email h2,
 .portfolio h2{
     font-family: 'kalam', cursive;
     color: whitesmoke;
@@ -261,12 +268,20 @@ a:hover{
     text-align: center;
 }
 
+.email .icons{
+    text-align: center;
+}
+
+.email a,
 .contato a{
     color: whitesmoke;
     font-size: 3em;
     padding: 0.5em;
     transition: text-shadow 1s;
 }
+
+.email a:active,
+.email a:hover,
 .contato a:active,
 .contato a:hover{
     text-decoration: none;
