@@ -149,6 +149,7 @@ a:hover{
     font-size: 2em;
 }
 
+.new p,
 .sobre p{
 
     color: whitesmoke;
@@ -158,11 +159,13 @@ a:hover{
     
 }
 
+.new a,
 .sobre a{
     color: white;
     text-decoration: underline;
 }
 
+.new a:hover,
 .sobre a:hover{
     background-color: darkcyan;
     text-decoration: underline;
